@@ -1,0 +1,124 @@
+%% conference information
+%\copyrightyear{2021}
+%\acmYear{2021}
+%\setcopyright{acmcopyright}\acmConference[SIGCOMM '21]{ACM SIGCOMM 2021 Conference}{August 23--27, 2021}{Virtual Event, USA}
+%\acmBooktitle{ACM SIGCOMM 2021 Conference (SIGCOMM '21), August 23--27, 2021, Virtual Event, USA}
+%\acmPrice{15.00}
+%\acmDOI{10.1145/3452296.3472891}
+%\acmISBN{978-1-4503-8383-7/21/08}
+
+\hyphenation{name-spaces}
+
+%% anonymization
+\newif\ifisanon
+\isanontrue
+
+% \newcommand{\unicast}[1]{{\color{green}{#1}}}
+\newcommand{\unicast}[1]{{{#1}}}
+
+% \newcommand{\change}[2]{{\color{blue}{#2 (#1)}}} %% For the reviewer's convenience
+\newcommand{\change}[2]{{#2}}
+
+
+\newcommand\site{site\xspace}
+\newcommand\Site{Site\xspace}
+\newcommand\sites{sites\xspace}
+\newcommand\Sites{Sites\xspace}
+
+% \newcommand\peering{PEERING}
+
+\newcommand\RA{\texttt{reactive\--anycast}\xspace}
+\newcommand\PP{\texttt{proactive\--prepending}\xspace}
+\newcommand\PS{\texttt{proactive\--superprefix}\xspace}
+
+\newcommand\SRA{\texttt{safer\--reactive\--anycast}\xspace}
+\newcommand\SPP{\texttt{controlled\--proactive\--prepending}\xspace}
+
+\newcommand\SRAone{\texttt{selective\--reactive\--anycast (1 site)}\xspace}
+\newcommand\SRAcap{\texttt{selective\--reactive\--anycast (capacity)}\xspace}
+\newcommand\SPPone{\texttt{selective\--proactive\--prepending (1 site)}\xspace}
+\newcommand\SPPall{\texttt{selective\--proactive\--prepending (all sites)}\xspace}
+
+
+\newcommand\AnycastSubprefix{\texttt{reactive\--subprefix\--announcement}\xspace}
+\newcommand\PrependSite{\texttt{reactive-prepended-announcement}\xspace}
+
+%% Colors for impossible deal table
+\newcommand\red{\color[HTML]{CC0000}}
+\newcommand\green{\color[HTML]{38761D}}
+\newcommand\yellow{\color[HTML]{F1C232}}
+\newcommand\blue{\color[HTML]{3393FF}}
+
+
+%% Getting rid of periods in bib entries
+\newcommand{\killpunct}[1]{}
+
+\newcommand\eat[1]{}
+
+%% System name
+\newcommand\thepeering{\textsc{Peering}\xspace}
+\newcommand\peering{\textsc{Peering}\xspace}
+%\newcommand\peering{\textsc{BGPPlatform}\xspace}
+\newcommand\vbgp{\texttt{vBGP}\xspace}
+\newcommand\testbed{platform\xspace}
+\newcommand\testbeds{platforms\xspace}
+
+%%% Macros for convenience
+%% References
+\newcommand{\secref}[1]{\S\ref{sec:#1}}
+\newcommand{\figref}[1]{Figure~\ref{fig:#1}}
+\newcommand{\tabref}[1]{Table~\ref{tab:#1}}
+%% to refer to lines in graphs
+\newcommand{\linename}[1]{\emph{#1}\xspace}
+\newcommand{\parab}[1]{\smallskip\noindent {\bf #1}}
+
+%% Common latin terms
+\newcommand{\etc}{\emph{etc.}\xspace}
+\newcommand{\ie}{\emph{i.e.,}\xspace}
+\newcommand{\eg}{\emph{e.g.,}\xspace}
+\newcommand{\etal}{\emph{et al.}\xspace}
+\newcommand{\aka}{a.k.a\xspace}
+
+%% editing notes
+\newcommand\ekb[1]{{\color{blue}[ekb: #1]}}
+\newcommand{\tbd}[1]{{\color{red}{\bf TBD: #1}}}
+
+% \definecolor{shadecolor}{RGB}{150,150,150}
+\newcommand{\lineboxblacktext}[2]{\colorbox{#1}{\texttt{#2}}}
+\newcommand{\lineboxwhitetext}[2]{\colorbox{#1}{\color{white}{\texttt{#2}}}}
+
+%\newcommand\new[1]{#1}
+%\newcommand\cut[1]{}
+\definecolor{orange}{rgb}{1.0, 0.31, 0.0}
+\definecolor{rowgray}{gray}{.8}
+%\newcommand\edit[2]{#2}
+%\newcommand\new[1]{{#1}}
+%\newcommand\cut[1]{{#1}}
+
+% terms
+\newcommand\noescape[1]{#1}
+
+\newcommand{\rightdownarrow}{\mathrel{\scalebox{1}[-1]{$\Rsh$}}}
+\newcommand{\cmark}{\color{green}\ding{51}}
+\newcommand{\xmark}{\color{red}\ding{55}}
+\newcommand{\metroas}{$\left<\texttt{region, AS}\right>$\xspace}
+\newcommand{\metroasroot}{$\left<\texttt{region, AS, root}\right>$\xspace}
+\newcommand{\fe}{front-end\xspace}
+\newcommand{\feplural}{front-ends\xspace}
+\newcommand{\capfe}{Front-end\xspace}
+\newcommand{\capfeplural}{Front-ends\xspace}
+
+\NewDocumentCommand{\rotseventy}{O{70} O{1em} m}{\makebox[#2][l]{\rotatebox{#1}{#3}}}
+
+
+% De-Anonymized Commands
+\newcommand\ISI{\textsc{the Information Sciences Institute (ISI) at USC}\xspace}
+\newcommand\ISIshort{\textsc{ISI}\xspace}
+\newcommand\thecdn{CDN\xspace}
+\iffalse
+% Anonymized Commands
+\newcommand\ISIone{a research lab in a university in the United States\xspace} % introductory reference
+\newcommand\ISItwo{the research lab\xspace} % more general references
+\newcommand\ISIthree{a research lab\xspace}
+\newcommand\thecdn{\texttt{ACDN}\xspace}
+\fi
