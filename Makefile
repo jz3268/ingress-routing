@@ -6,8 +6,8 @@ TARGET=$(NAME).pdf
 
 # Change the line below to contain an export URL.
 # Make sure the sharing mode on the Doc is set to "anyone with link can view"
-DOC_ID=1MTiXtKoJxUrfPPIubc3t7t94K4iM_W2gwrCJvRuCwVE
-DOCS_LINK=https://docs.google.com/document/d/1MTiXtKoJxUrfPPIubc3t7t94K4iM_W2gwrCJvRuCwVE/export?format=txt
+DOC_ID=15i-02m261iNeQ6eipXo8b76H5qjrkr0pEZD8fdwFhoU
+DOCS_LINK=https://docs.google.com/document/d/15i-02m261iNeQ6eipXo8b76H5qjrkr0pEZD8fdwFhoU/export?format=txt
 # This line should not change; however, you can customize the template.tex for the conference
 #
 # We use "--tab-stop 3" as Google Docs indents nested lists with three spaces
