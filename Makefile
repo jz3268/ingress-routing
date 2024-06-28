@@ -36,7 +36,7 @@ recompile: $(TARGET)
 
 all: trigger $(TARGET)
 
-hotfix: trigger $(TARGET_HOTFIX)
+hotfix: trigger_hotfixf $(TARGET_HOTFIX)
 
 clean:
 	rm -f $(NAME).aux $(NAME).bbl $(NAME).blg $(NAME).log $(NAME).pdf $(NAME).md $(NAME).mdg $(NAME).mdt $(NAME).md-r $(NAME).out $(NAME).trig $(NAME).run.xml $(NAME)-blx.bib authors.aux
@@ -45,7 +45,7 @@ clean:
 trigger $(NAME).trig:
 	touch $(NAME).trig
 
-trigger $(NAME_HOTFIX).trig:
+trigger_hotfixf $(NAME_HOTFIX).trig:
 	touch $(NAME_HOTFIX).trig 
 
 
