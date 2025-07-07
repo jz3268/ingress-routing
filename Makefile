@@ -8,8 +8,8 @@ TARGET_HOTFIX=$(NAME_HOTFIX).pdf
 
 # Change the line below to contain an export URL.
 # Make sure the sharing mode on the Doc is set to "anyone with link can view"
-DOC_ID=15i-02m261iNeQ6eipXo8b76H5qjrkr0pEZD8fdwFhoU
-DOCS_LINK=https://docs.google.com/document/d/15i-02m261iNeQ6eipXo8b76H5qjrkr0pEZD8fdwFhoU/export?format=txt
+DOC_ID=1SB9F1qsMO6I-6ySS-BebF8xOOly8K0p3wvabtekriaQ
+DOCS_LINK=https://docs.google.com/document/d/1SB9F1qsMO6I-6ySS-BebF8xOOly8K0p3wvabtekriaQ/export?format=txt
 # This line should not change; however, you can customize the template.tex for the conference
 #
 # We use "--tab-stop 3" as Google Docs indents nested lists with three spaces
